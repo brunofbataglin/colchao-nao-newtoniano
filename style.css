@@ -88,7 +88,7 @@ header h1 {
 /* ======== SOBRE O PRODUTO ======== */
 .sobre {
   background: #161b22;
-  border-radius: 12px;
+    padding: 50px;
 }
 
 .sobre h2{
@@ -99,7 +99,7 @@ header h1 {
 }
 
 .sobre p {
-  max-width: 8000px;
+  max-width: 1000px;
   margin: auto;
   text-align: center;
 }
@@ -109,6 +109,7 @@ header h1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
+  padding: 30px;
 }
 
 .info-card {
